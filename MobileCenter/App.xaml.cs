@@ -34,9 +34,8 @@ namespace Mobile_Center
             Distribute.ReleaseAvailable = OnReleaseAvailable;
 
             // Start Mobile Center
-            MobileCenter.Start("ios=1f55e7a2-0958-4dc0-ba63-cd0cb9e62988;" +
-                   "uwp=7740dc08-60a3-47f0-9eb2-c602815280ad;" +
-                   "android=970c6dac-5e92-4fd7-bbd8-2017d2cb3709",
+            MobileCenter.Start("ios=66df1b24-eaf8-4a2b-b443-ffb7f7fe48f2;" +
+                   "android=69ef7fd4-dad8-47fc-8528-78f0c6ff787e;",
                                typeof(Analytics),
                                typeof(Crashes),
                                typeof(Distribute),
