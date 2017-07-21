@@ -43,6 +43,8 @@ namespace Mobile_Center
 
         async void Handle_Clicked(object sender, System.EventArgs e)
         {
+            throw new Exception("Testing crash analytics");
+
             // You can also track an event with no dictionary
 			Analytics.TrackEvent("Button Clicked", new Dictionary<string, string> {
 				{ "Category", "User" },
